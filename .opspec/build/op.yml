@@ -26,4 +26,4 @@ run:
         outputs: { gitCommit: commit }
     - op:
         pkg: { ref: github.com/opspec-pkgs/codecov.upload#1.0.0 }
-        inputs: { gitBranch, gitCommit, token: 793bea8f-1036-4ab6-8c6e-bfa7737d4037, report: $(coverprofile) }
+        inputs: { gitBranch, gitCommit, token: 62f02627-1dd4-43ac-b46a-5ef09cb93501, report: $(coverprofile) }
